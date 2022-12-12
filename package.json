@@ -1,6 +1,6 @@
 {
   "name": "@dudod/capacitor-plugin-install-referrer",
-  "version": "1.0.8",
+  "version": "1.0.11",
   "description": "Plugin to retrieve and use the google play install referrer. Copied from https://www.npmjs.com/package/@togetherprice/capacitor-plugin-install-referrer?activeTab=readme",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -17,10 +17,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://bitbucket.org/together_price/capacitor-plugin-install-referrer.git"
+    "url": "git+https://github.com/dmitry-udod/capacitor-plugin-install-referrer.git"
   },
   "bugs": {
-    "url": "https://bitbucket.org/together_price/capacitor-plugin-install-referrer/issues"
+    "url": "https://github.com/dmitry-udod/capacitor-plugin-install-referrer/issues"
   },
   "keywords": [
     "capacitor",
@@ -38,7 +38,7 @@
     "prettier": "prettier \"**/*.{css,html,ts,js,java}\"",
     "swiftlint": "node-swiftlint",
     "docgen": "docgen --api InstallReferrerPlugin --output-readme README.md --output-json dist/docs.json",
-    "build": "npm run clean",
+    "build": "",
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build"

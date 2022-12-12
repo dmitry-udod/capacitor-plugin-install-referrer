@@ -1,0 +1,63 @@
+{
+  "api": {
+    "name": "InstallReferrerPlugin",
+    "slug": "installreferrerplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "getReferrerDetails",
+        "signature": "() => any",
+        "parameters": [],
+        "returns": "any",
+        "tags": [],
+        "docs": "Return the `install referrer` passed to the store when installing the app, if any.\n\nUsage:\n```\nimport { InstallReferrer } from '@togetherprice/capacitor-plugin-install-referrer';\n\nInstallReferrer\n .getReferrer()\n .then(({ value }) => console.log(`The referrer is {value}`))\n```",
+        "complexTypes": [
+          "ReferrerDetails"
+        ],
+        "slug": "getreferrerdetails"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [
+    {
+      "name": "ReferrerDetails",
+      "slug": "referrerdetails",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "referrerUrl",
+          "tags": [],
+          "docs": "The install referrer passed to the store when installing the app, if any.",
+          "complexTypes": [],
+          "type": "string | undefined"
+        },
+        {
+          "name": "referrerClickTime",
+          "tags": [],
+          "docs": "The install referrer click time.",
+          "complexTypes": [],
+          "type": "number | undefined"
+        },
+        {
+          "name": "appInstallTime",
+          "tags": [],
+          "docs": "The app install time.",
+          "complexTypes": [],
+          "type": "number | undefined"
+        },
+        {
+          "name": "instantExperienceLaunched",
+          "tags": [],
+          "docs": "If the instant experience was launched.",
+          "complexTypes": [],
+          "type": "boolean | undefined"
+        }
+      ]
+    }
+  ],
+  "enums": []
+}
