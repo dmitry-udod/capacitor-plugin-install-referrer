@@ -53,14 +53,13 @@ Return the `install referrer` passed to the store when installing the app, if an
 
 Usage:
 ```
-import { InstallReferrer } from '@togetherprice/capacitor-plugin-install-referrer';
+import { InstallReferrer } from '@dudod/capacitor-plugin-install-referrer';
 
-InstallReferrer
- .getReferrer()
- .then(({ value }) =&gt; console.log(`The referrer is {value}`))
+const referrer = await InstallReferrer.getReferrerDetails();
+
 ```
 
-**Returns:** <code>any</code>
+**Returns:** <code>ReferrerDetails</code>
 
 --------------------
 
