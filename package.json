@@ -1,6 +1,6 @@
 {
   "name": "@dudod/capacitor-plugin-install-referrer",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Plugin to retrieve and use the google play install referrer. Copied from https://www.npmjs.com/package/@togetherprice/capacitor-plugin-install-referrer?activeTab=readme",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
